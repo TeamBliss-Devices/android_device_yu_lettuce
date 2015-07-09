@@ -68,5 +68,18 @@ BOARD_SEPOLICY_UNION += \
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+# Bliss Optimisations
+BLISSIFY := true
+BLISS_GRAPHITE := true
+FLOOP_NEST_OPTIMIZE := true
+TARGET_USE_QCOM_BIONIC_OPTIMIZATION := true
+FAST_MATH := true
+ENABLE_MODULAR_O3 := true
+ENABLE_LTO := true
+Link_Time_Optimizations := true
+TARGET_USE_ION_COMPAT := true
+BLISS_BUILDTYPE := OFFICIAL
+BLISS_DEVELOPER := Men_in_black007
+
 # inherit from the proprietary version
 -include vendor/yu/lettuce/BoardConfigVendor.mk
