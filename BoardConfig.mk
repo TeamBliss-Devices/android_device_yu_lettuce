@@ -85,6 +85,7 @@ ENABLE_MODULAR_O3 := true
 ENABLE_LTO := true
 Link_Time_Optimizations := true
 TARGET_USE_ION_COMPAT := true
+WITH_LZMA_OTA := true
 BLISS_BUILDTYPE := OFFICIAL
 BLISS_DEVELOPER := Men_in_black007
 
